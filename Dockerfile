@@ -13,7 +13,7 @@ LABEL \
     org.label-schema.url="https://github.com/lonly197" \
     org.label-schema.description="Alpine GNU C library (glibc) Docker image." \
     org.label-schema.vcs-ref=$VCS_REF \
-    org.label-schema.vcs-url="https://github.com/lonly197/docker-apline-glibc" \
+    org.label-schema.vcs-url="https://github.com/lonly197/docker-alpine-glibc" \
     org.label-schema.vcs-type="Git" \
     org.label-schema.vendor="lonly197@qq.com" \
     org.label-schema.version=$VERSION \
