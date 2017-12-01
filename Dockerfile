@@ -9,7 +9,7 @@ LABEL \
     org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="Apache License 2.0" \
-    org.label-schema.name="lonly/docker-alpine" \
+    org.label-schema.name="lonly/docker-alpine-glibc" \
     org.label-schema.url="https://github.com/lonly197" \
     org.label-schema.description="Alpine GNU C library (glibc) Docker image." \
     org.label-schema.vcs-ref=$VCS_REF \
