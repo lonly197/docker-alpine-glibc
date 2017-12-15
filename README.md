@@ -6,25 +6,17 @@
 proprietary projects compiled against glibc (e.g. OracleJDK, Anaconda) work on Alpine.
 
 ## Introduction
--------------
+
+> Please use corresponding branches from this repo to play with code.
+
+- __2.26-r0 = 2.26 = 2 = latest__
 
 This image includes some quirks to make [glibc](https://www.gnu.org/software/libc/) work side by
 side with musl libc (default in Apline Linux). glibc packages for Alpine Linux are prepared by
 [Andy Shinn](https://github.com/andyshinn) and the releases are published in
 [andyshinn/alpine-pkg-glibc](https://github.com/andyshinn/alpine-pkg-glibc) github repo.
 
-## Build
-
-```sh
-$ docker build \
---rm \
--t lonly/docker-alpine-glibc \
---build-arg VCS_REF=`git rev-parse --short HEAD` \
---build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` .
-```
-
 ## Usage
--------------
 
 This image is intended to be a base image for your projects, so you may use it like this:
 
@@ -41,3 +33,12 @@ $ docker build -t my_app .
 There are already several images using this image, so you can refer to them as usage examples:
 
 * [`lonly/docker-alpine-oraclejdk8`](https://hub.docker.com/r/lonly/docker-alpine-oraclejdk8/) ([github](https://github.com/lonly197/docker-alpine-oraclejdk8))
+
+
+## License
+
+![License](https://img.shields.io/github/license/lonly197/docker-alpine-glibc.svg)
+
+## Contact me
+
+- Email: <lonly197@qq.com>
