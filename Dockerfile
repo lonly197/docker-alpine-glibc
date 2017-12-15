@@ -31,7 +31,7 @@ RUN	set -x \
     ## Update apk package
     && apk update \
     ## Add base package
-    && apk add --no-cache --upgrade --virtual=build-dependencies bash curl ca-certificates openssl wget jq tar unzip vim \
+    && apk add --no-cache --upgrade --virtual=build-dependencies bash curl ca-certificates openssl wget jq tar \
     ## Update ca-cert
     && update-ca-certificates \
     ## Define uname
